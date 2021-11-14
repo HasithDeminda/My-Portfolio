@@ -6,9 +6,9 @@ const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">My Projects and Researches</h1>
+        <h1 className="pl-title">My Projects</h1>
         <p className="pl-desc">
-          Here are some of my projects that I have Implemented !
+          Here are some of my projects and Researches that I have Implemented !
         </p>
       </div>
       <div className="pl-list">
@@ -45,15 +45,15 @@ const ProductList = () => {
             </div>
           </a>
 
-          <a href="https://www.instagram.com/hasith_deminda/">
+          {/* <a href="https://www.instagram.com/hasith_deminda/">
             <div className="icon instagram">
-              {/* <div class="tooltip">Instagram</div> */}
+              <div class="tooltip">Instagram</div>
 
               <span>
                 <i className="fab fa-instagram"></i>
               </span>
             </div>
-          </a>
+          </a> */}
 
           <a href="https://github.com/HasithDeminda">
             <div className="icon github">

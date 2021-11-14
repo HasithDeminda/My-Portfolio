@@ -81,13 +81,14 @@
 }
 
 .btn-highlighted-btn {
+  font-size: 12px;
   margin-left: 50px;
-  width: 150px;
+  width: 130px;
   border-radius: 50px;
   outline: none;
   border: solid 2px #ff4500;
   background: #ff4500;
-
+  height: 55px;
   color: white;
   transition: all 0.3s linear;
 }
@@ -100,7 +101,9 @@
 }
 
 .btn-primary-btn {
-  width: 150px;
+  font-size: 12px;
+  width: 130px;
+  height: 55px;
   border-radius: 50px;
   background: #ff4500;
   transition: all 0.3s linear;
@@ -151,6 +154,14 @@
     height: 100%;
     margin-top: 20px;
 
-    position: absolute;
+    position: relative;
   }
+
+.btn-highlighted-btn {
+  font-size: 12px;
+}
+.btn-primary-btn {
+  font-size: 12px;
+}
+
 }

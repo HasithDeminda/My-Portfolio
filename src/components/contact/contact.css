@@ -320,12 +320,15 @@ button {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 480px) {
+  
 
 	.footer-distributed{
 		font: bold 14px sans-serif;
+    
 	}
   .footer-distributed .footer-company-about1{
 	display: none;
+  
 }
 
 	.footer-distributed .footer-left,
@@ -335,6 +338,7 @@ button {
 		width: 100%;
 		margin-bottom: 40px;
 		text-align: center;
+    
 	}
 
 	.footer-distributed .footer-center i{
