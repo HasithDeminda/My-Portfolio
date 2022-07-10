@@ -8,7 +8,12 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">My Projects</h1>
         <p className="pl-desc">
-          Here are some of my projects and Researches that I have Implemented !
+          Here are some of my projects and Researches that I have wored on !
+          <br />
+          <strong>
+            🛑 These are only my personal projects, these doesn't include any of
+            the projects that I have worked in my company.
+          </strong>
         </p>
       </div>
       <div className="pl-list">
@@ -18,6 +23,7 @@ const ProductList = () => {
             img={item.img}
             link={item.link}
             topic={item.topic}
+            stack={item.stack}
           />
         ))}
       </div>
