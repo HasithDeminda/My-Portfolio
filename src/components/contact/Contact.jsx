@@ -1,17 +1,19 @@
 import "./contact.css";
 
 const Contact = () => {
-
   return (
     <div className="c">
-
       <footer className="footer-distributed" id="contactId">
         <div className="footer-left">
           <h3>
             <img
               className="c-icon-my"
-              src="https://res.cloudinary.com/desnqqj6a/image/upload/ar_1:1,b_rgb:2c292f,bo_5px_solid_rgb:ffffff,c_fill,g_auto,r_max,w_1000/v1636690189/IMG-20200705-WA0172_ortjgz.jpg"
+              src="https://res.cloudinary.com/desnqqj6a/image/upload/v1707581838/Hasith_Deminda_Square_vxex97.jpg"
               alt=""
+              style={{
+                borderRadius: "50%",
+                objectFit: "cover",
+              }}
             />
           </h3>
 
@@ -49,7 +51,7 @@ const Contact = () => {
           <div>
             <i className="fa fa-envelope"></i>
             <p>
-              <a href="https://www.google.com/gmail/">
+              <a href="mailto:demindahasith@gmail.com">
                 demindahasith@gmail.com
               </a>
             </p>

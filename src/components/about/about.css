@@ -1,7 +1,9 @@
 .a {
-  height: 130vh;
+  /* height: 130vh; */
+  height: 100%;
   display: flex;
   align-items: center;
+  margin-top: -100px;
 }
 
 .a-left {
@@ -11,6 +13,7 @@
   justify-content: center;
   position: relative;
   height: 100%;
+  top: -50px;
 }
 
 .a-right {
@@ -19,13 +22,13 @@
 
 .a-card.bg {
   position: absolute;
-  top: 20px;
-  left: 50px;
-  background-color: #353237;
+  top: 50px;
+  left: 90px;
+  background-color: #ffc200;
 }
 
 .a-card {
-  margin-top: 60px;
+  margin-top: 0px;
   width: 60%;
   height: 70vh;
   border-radius: 30px;
@@ -47,7 +50,7 @@
 }
 
 .a-sub {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .a-desc {

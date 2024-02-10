@@ -7,7 +7,7 @@ const About = () => {
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
-            src="https://res.cloudinary.com/desnqqj6a/image/upload/v1657437416/IMG-20220414-WA0130_opnuxe.jpg"
+            src="https://res.cloudinary.com/desnqqj6a/image/upload/v1707581838/Hasith_Deminda_Square_vxex97.jpg"
             alt=""
             className="a-img"
           />
@@ -20,91 +20,186 @@ const About = () => {
         </h1>
         <br />
         <p className="a-desc" style={{ textAlign: "justify" }}>
-          Driven student leveraging studies in software engineering and project
-          management to build a career in the industry. Offers a unique blend of
-          technical and business skills to build a successful and efficient
-          team. Organized and determined team player with a strong sense of
-          managing multiple priorities with a high level of responsibility.
+          Passionate and committed project management enthusiast, combining
+          technical skills with business insight to achieve success. Highly
+          organized team player with a strong sense of responsibility, skilled
+          at managing multiple tasks effectively. Dedicated to building
+          efficient teams and achieving exceptional outcomes.
           <br />
           <br />
           <br />
-          <h2 className="a-title">Experience</h2>
+          <h2
+            className="a-title"
+            style={{
+              textDecoration: "underline",
+            }}
+          >
+            Experience
+          </h2>
           <p className="a-sub">
-            <h4>Current</h4>
-            🧑‍💻 Associate Software Engineer & Project Manager at{" "}
-            <a
-              href="https://syntaxgenie.com"
-              style={{ color: "blue", textDecoration: "none" }}
+            <h4>2023 Nov - Present</h4>
+            <div
+              style={{
+                marginTop: "10px",
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                gap: "5px",
+              }}
             >
-              Syntax Genie (Pvt) Ltd
-            </a>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/desnqqj6a/image/upload/v1707585158/Arimac_cbtivf.png"
+                  alt=""
+                  style={{
+                    width: "35px",
+                    height: "35px",
+                    marginRight: "5px",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+              <div>
+                {" "}
+                Project Manager at{" "}
+                <a
+                  href="https://arimaclanka.com"
+                  style={{ color: "blue", textDecoration: "none" }}
+                >
+                  Arimac
+                </a>
+              </div>
+            </div>
             <br />
-            <br />
-            <h4>Current</h4>
-            🧑‍💻 Freelancing Web Developer at{" "}
-            <a
-              href="https://Fiverr.com"
-              style={{ color: "blue", textDecoration: "none" }}
+
+            <h4>2021 Dec - Present</h4>
+            <div
+              style={{
+                marginTop: "10px",
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                gap: "5px",
+              }}
             >
-              Fiverr
-            </a>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/desnqqj6a/image/upload/v1707585173/Fiverr_ijz0nf.png"
+                  alt=""
+                  style={{
+                    width: "35px",
+                    height: "35px",
+                    marginRight: "5px",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+              <div>
+                Freelance Web Developer at{" "}
+                <a
+                  href="https://Fiverr.com"
+                  style={{ color: "blue", textDecoration: "none" }}
+                >
+                  Fiverr
+                </a>
+              </div>
+            </div>
+
             <br />
+            <h4>2022 July - 2023 Nov</h4>
+            <div
+              style={{
+                marginTop: "10px",
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                gap: "5px",
+              }}
+            >
+              <div>
+                <img
+                  src="https://res.cloudinary.com/desnqqj6a/image/upload/v1703936808/sgx-logo_1_dw1z1s.png"
+                  alt=""
+                  style={{
+                    width: "35px",
+                    height: "35px",
+                    marginRight: "5px",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+              <div>
+                Associate Project Manager at{" "}
+                <a
+                  href="https://syntaxgenie.com"
+                  style={{ color: "blue", textDecoration: "none" }}
+                >
+                  Syntax Genie
+                </a>
+              </div>
+            </div>
+
             <br />
             <h4>2022 Jan - July</h4>
-            🧑‍💻 Intern at Syntax Genie (Pvt) Ltd
+            <div
+              style={{
+                marginTop: "10px",
+                display: "flex",
+                flexDirection: "row",
+                alignItems: "center",
+                gap: "5px",
+              }}
+            >
+              <div>
+                <img
+                  src="https://res.cloudinary.com/desnqqj6a/image/upload/v1703936808/sgx-logo_1_dw1z1s.png"
+                  alt=""
+                  style={{
+                    width: "35px",
+                    height: "35px",
+                    marginRight: "5px",
+                    objectFit: "contain",
+                  }}
+                />
+              </div>
+              <div>
+                Intern Software Engineer at{" "}
+                <a
+                  href="https://syntaxgenie.com"
+                  style={{ color: "blue", textDecoration: "none" }}
+                >
+                  Syntax Genie
+                </a>
+              </div>
+            </div>
           </p>
           <br />
           <br />
-          <h2 className="a-title">Education</h2>
+          <h2
+            className="a-title"
+            style={{
+              textDecoration: "underline",
+            }}
+          >
+            Education
+          </h2>
           <p className="a-sub">
             <h4>2020 - 2023</h4>
-            🎓 3rd Year Software Engineering Undergraduate at SLIIT
+            🎓 BSc (Hons) in IT, specialized in Software Engineering, SLIIT, Sri
+            Lanka
             <br />
             <br />
             <h4>School</h4>
-            👨‍🎓 Galahitiyawa Central College, Ganemulla, Gampaha.
+            👨‍🎓 Galahitiyawa Central College, Ganemulla, Gampaha, Sri Lanka
             <br />
             <br />
-            <h4>2019</h4>
+            {/* <h4>2019</h4>
             <li>GCE Advanced Level </li>
             <br />
             <h4>2015</h4>
-            <li>GCE Ordinary Level </li>
+            <li>GCE Ordinary Level </li> */}
           </p>
           <br />
-          <div>
-            <>
-              <h2 className="a-title">Technologies I'm good at</h2>
-              <br />
-              <ul className="columns" data-columns="2">
-                <li>React Js</li>
-                <li>HTML</li>
-                <li>CSS/SASS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>MySQL</li>
-                <li>Python</li>
-                <li>Node Js</li>
-                <li>Android Studio</li>
-                <li>Java</li>
-              </ul>
-            </>
-            <>
-              <br />
-              <br />
-              <h2 className="a-title">Project Management Skills</h2>
-              <br />
-              <ul className="columns" data-columns="2">
-                <li>Requirements Analysis</li>
-                <li>Effective Communication </li>
-                <li>Scheduling & Time Management</li>
-                <li>Leadership Skills</li>
-                <li>Critical Thinking and Problem Solving</li>
-              </ul>
-            </>
-            <br />
-            <br />
-          </div>
         </p>
       </div>
     </div>

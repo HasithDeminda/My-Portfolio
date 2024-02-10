@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap");
+* {
+  font-family: "Maven Pro", sans-serif;
+  box-sizing: border-box;
+}
+.skills-section {
+  display: flex;
+  margin: 75px 50px;
+  justify-content: center;
+  gap: 2rem;
+
+  .skills-container {
+    flex: 1;
+
+    &:first-child {
+      // margin-right: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+
+      li {
+        padding: 1rem 1.5rem;
+        color: #ffc200;
+        font-weight: 600;
+        border-radius: 25px;
+        background-color: #fff;
+        border: 2px solid #ffc200;
+        box-shadow: 0 2px 4px rgba(25, 103, 239, 0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: translateY(-3px);
+          color: #fff;
+          background-color: #ffc200;
+          font-weight: 600;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+      }
+    }
+
+    // Adjusting grid columns for project management skills
+    &.project-management ul {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
